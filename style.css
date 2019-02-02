@@ -1,12 +1,17 @@
+nav{
+	font-size: 20px;
 
+	position: fixed;
+	top:0;
+}
 
 h1{
 	font-family: 'Times New Roman', san-serif;
 	color: lightpink;
 	text-align: center;
 	border: 10px;
-	border-style: ridge;
-	border-image: url(purplegalaxy.jpg) 50 round;
+	border-style: dashed;
+	border-color: #9e28ff;
 	
 }
 #about p{
@@ -16,14 +21,19 @@ h1{
 #about{
 	border: 10px;
 	padding: 15px 0px;
-	margin: 40px;
+	margin: 30px;
 }
+/* Code to make the link aligned to the right.*/
 nav ul {
 	display: block;
 	float: right;
+	
+
 }
+/* Code to make the links aligned horizontally*/
 nav li {
 	display: inline;
-	padding: 10px 50px;
-	margin-top: 15px;
+	padding: 20px 50px;
+	
+
 }
