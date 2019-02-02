@@ -1,8 +1,9 @@
 /*This is code for the header for the page; this code adds has a border for the header */
 header{
 	
-	background-image: : url("headerimage.png");
-	
+	background-image: url("headerimage.png");
+	color: white;
+	font-size: 50px;
 }
 nav{
 	font-size: 20px;
