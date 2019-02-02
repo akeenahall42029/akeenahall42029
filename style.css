@@ -1,8 +1,6 @@
 nav{
 	font-size: 20px;
 
-	position: fixed;
-	top:0;
 }
 
 h1{
@@ -36,4 +34,15 @@ nav li {
 	padding: 20px 50px;
 	
 
+}
+#computerClassSetup{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+article{
+	color:white;
+	display: block;
+	
+	margin-right: auto;
 }
