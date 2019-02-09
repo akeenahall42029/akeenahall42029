@@ -1,5 +1,5 @@
-/*This is code for the header for the page; this code adds has a border for the header */
-header{
+header{ /*This is code for the header for the page; this code adds has a border for the header */
+
 	
 	background-image: url("headerimage.png");
 	color: white;
@@ -12,7 +12,7 @@ nav{
 
 h1{
 	font-family: 'Times New Roman', san-serif;
-	color: lightpink;
+	color: white;
 	text-align: center;
 	border: 10px;
 	border-style: dashed;
@@ -23,11 +23,11 @@ h1{
 	color: pink;
 	font-family: 'Impact', serif;
 }
-#about{
-	border: 10px;
-	padding: 15px 0px;
-	margin: 30px;
+#experience ul{
+	color:pink;
+	text-align: center;
 }
+
 /* Code to make the link aligned to the right.*/
 nav ul {
 	display: block;
@@ -35,6 +35,7 @@ nav ul {
 	
 
 }
+
 /* Code to make the links aligned horizontally*/
 nav li {
 	display: inline;
@@ -42,6 +43,7 @@ nav li {
 	
 
 }
+
 #computerClassSetup{
 	display: block;
 	margin-left: auto;
@@ -51,5 +53,23 @@ article{
 	color:white;
 	display: block;
 	
+	margin-right: auto;
+}
+div{/* This cide is for the background color for all the div; will make all the sections different colors*/
+	
+	border: 20px;
+	background-color: black;
+	margin: 15px;
+	padding: 20px 5px;
+}
+footer {
+	border:20px;
+	background-color: #F75EC5;
+	margin: 15px;
+	padding: 20px 15px;
+}
+img{
+	display: block;
+	margin-left: auto;
 	margin-right: auto;
 }
