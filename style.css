@@ -1,12 +1,12 @@
-header{ /*This is code for the header for the page; this code adds has a border for the header */
-
-	
-	background-image: url("headerimage.png");
-	color: white;
+h2{
+	text-align: right;
 	font-size: 50px;
+	color: #6a32db;
 }
 nav{
 	font-size: 20px;
+	padding: 15px;
+	margin-bottom: 15px;
 
 }
 
@@ -17,6 +17,7 @@ h1{
 	border: 10px;
 	border-style: dashed;
 	border-color: #9e28ff;
+	font-size: 25px;
 	
 }
 #about p{
