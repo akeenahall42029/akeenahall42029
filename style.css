@@ -20,6 +20,15 @@ h1{
 	font-size: 25px;
 	
 }
+/* The following code will hide the main divs, this is so in script, when the button is clicked, the sections will show */
+div{/* This cide is for the background color for all the div; will make all the sections different colors*/
+	display: none;
+	border: 20px;
+	background-color: black;
+	margin: 15px;
+	padding: 20px 5px;
+}
+/* */
 
 #port{
 	font-family: 'Georgia', san-serif;
@@ -30,8 +39,9 @@ h1{
 	color: pink;
 	font-family: 'Impact', serif;
 }
+
 #experience ul{
-	color:pink;
+	color:yellow;
 	text-align: center;
 }
 
@@ -62,13 +72,7 @@ article{
 	
 	margin-right: auto;
 }
-div{/* This cide is for the background color for all the div; will make all the sections different colors*/
-	
-	border: 20px;
-	background-color: black;
-	margin: 15px;
-	padding: 20px 5px;
-}
+
 footer {
 	border:20px;
 	background-color: #F75EC5;

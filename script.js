@@ -15,7 +15,14 @@ $(document).ready(function() {
 			this.src = "computerClassSetup.jpg";
 		}
 	//this code will make the divs, about me, contact, etc, toggle down and back up 
-	$('button').click(function(){
+	$('#aboutMeButton').click(function(){
 		$('#about').slideToggle("slow");
+	});
+	$('#experienceB').click(function(){
+		$('#experience').slideToggle("slow");
+	});
+	$('#projectb').click(function(){
+		$('#projects').slideToggle("slow");
+
 	});
 })
