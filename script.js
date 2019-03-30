@@ -14,6 +14,8 @@ $(document).ready(function() {
 		function leave(){
 			this.src = "computerClassSetup.jpg";
 		}
-
-
+	//this code will make the divs, about me, contact, etc, toggle down and back up 
+	$('button').click(function(){
+		$('#about').slideToggle("slow");
+	});
 })

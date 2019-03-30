@@ -1,24 +1,30 @@
 h2{
 	text-align: right;
-	font-size: 50px;
+	font-size: 35px;
 	color: #6a32db;
 }
 nav{
 	font-size: 20px;
-	padding: 15px;
-	margin-bottom: 15px;
-
+	padding: 15PX;
+	background-color: white;
+	margin-bottom: 25px;
 }
 
 h1{
-	font-family: 'Times New Roman', san-serif;
+	font-family: 'Times New Roman', serif;
 	color: white;
 	text-align: center;
-	border: 10px;
-	border-style: dashed;
+	border: 15px;
+	border-style: dotted;
 	border-color: #9e28ff;
 	font-size: 25px;
 	
+}
+
+#port{
+	font-family: 'Georgia', san-serif;
+	font-style: italic;
+	font-size: 50px;
 }
 #about p{
 	color: pink;
