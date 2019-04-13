@@ -32,33 +32,77 @@
 		</ul>
 		
 	</nav>
+	<!-- Button for the about me div-->
 	<button id="aboutMeButton" type="button">Click this button to show the <b>About Me Section </b> </button>
 	<div id="about">
+		
 		<h1> About Me </h1>
+		<img id="aboutmepic" src="images/aboutmeIMG.JPG">
 		<p> My name is Akeena Hall, I'm 14 years old, and I'm in the 9th grade; I attend Urban Assembly Maker Academy. I participate in a lot of extracurricular activities such as Junior Varsity basketball, Girl Scouts, Girls Inc, and <a href="https://codenext.withgoogle.com/#intro">Code Next.</a> I like to spend my free time volunteering, hanging out with friends, and watching Tv at home!</p>
 	</div>
+	<!-- Button for the experience div-->
 	<button id="experienceB" type="button"> Click this button to show the <b> Experience Seciton </b> </button>
 	<div id="experience">
 		<h1> Experience</h1>
 		<ul>
-			<li> Coding in HTML and Javascript </li>
-			<li> Scripting in CSS </li>
-			<li> Teddy Bear customing with Arduino </li>
-			<li> Coding with Scratch in the 6th grade in Girls Who Code</li>
+			 Coding in HTML and Javascript <br>
+			 Scripting in CSS <br>
+			 Teddy Bear customing with Arduino <br>
+			 Coding with Scratch in the 6th grade in Girls Who Code<br>
 		</ul>
 			
 	</div>
+	<!-- button for the project div-->
 	<button id="projectb" type="button"> Click this button to show the <b> Projects Section</b></button>
 	<div id="projects">
 		<h1> Projects </h1>
-		<img id="img" src="images/computerClassSetup.jpg" width="400" height="400">
-		<img id="GWCproject" src="images/objectProject.png" width="500" height="400">
+		<!-- Code from w3schools -->
+		<div class="slideshow-container">
+			<!-- Set up for one image in slideshow -->
+				<div class="mySlides fade">
+ 				 	<div class="numbertext">1 / 4</div>
+  					<img src="images/objectProject.png" style="width:100%">
+  					<div class="text">Caption Text</div>
+				</div>
+			<!-- Set up for one image in slideshow -->
+				<div class="mySlides fade">
+  					<div class="numbertext">2 / 4</div>
+  					<img src="images/computerClassFlyer.png" style="width:100%">
+  					<div class="text">Computer flyer</div>
+				</div>
+			<!-- Set up for one image in slideshow -->
+				<div class="mySlides fade">
+  					<div class="numbertext">3 / 4</div>
+ 					 <img src="images/watermelon.png" style="width:100%">
+ 					 <div class="text">Check out my <a href="https://glitch.com/~watermellllon"> watermelon </a> project on glitch.com </div>
+				</div>
+			<!-- Set up for one image in slideshow -->
+				<div class="mySlides fade">
+  					<div class="numbertext">4 / 4</div>
+  					<img src="images/computerInfoM.png" style="width:100%">
+  					<div class="text">Check out <a href="https://akeenahall.wordpress.com">my other website </a></div>
+				</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+<!-- --> 
+
 	</div> 
 	<footer id="contact">
 		<h1>Contact</h1>
 	</footer>
 
-	<script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
 
