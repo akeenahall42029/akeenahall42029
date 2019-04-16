@@ -20,6 +20,9 @@ h1{
 	font-size: 25px;
 	
 }
+#insta{
+	width: 25%;
+}
 /* The following code will hide the main divs, this is so in script, when the button is clicked, the sections will show */
 #about {/* This div is for the background color for all the div; will make all the sections different colors*/
 	display: none;
