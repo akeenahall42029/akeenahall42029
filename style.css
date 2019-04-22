@@ -1,74 +1,86 @@
-h2{
-	text-align: right;
-	font-size: 35px;
-	color: #6a32db;
+body{
+	background-color: #15ffbe;
+
 }
-nav{
-	font-size: 20px;
-	padding: 15PX;
-	background-color: white;
-	margin-bottom: 25px;
+h1{
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+	color: #f84539;
 }
 
-h1{
+nav{
+	font-size: 20px;
+	padding-left : 15PX;
+	margin-bottom: 50px;
+	text-align: center;
+
+}
+/* changing the color of the hyperlink */
+a{
+	color: white;
+}
+
+h2{
 	font-family: 'Times New Roman', serif;
 	color: white;
 	text-align: center;
 	border: 15px;
-	border-style: dotted;
+	border-style: groove;
 	border-color: #9e28ff;
 	font-size: 25px;
 	
 }
+/* p for contact */
+#contactP{
+	text-align: center;
+}
+/* size for instagram logo */
+
 #insta{
-	width: 25%;
+	width: 15%;
 }
 /* The following code will hide the main divs, this is so in script, when the button is clicked, the sections will show */
 #about {/* This div is for the background color for all the div; will make all the sections different colors*/
 	display: none;
 	border: 20px;
-	background-color: black;
+	background-color: #ef719e;
 	margin: 15px;
 	padding: 20px 5px;
+
 }
 #experience {
 	display: none;
 	border: 20px;
-	background-color: black;
+	background-color:  #ef719e;
 	margin: 15px;
 	padding: 20px 5px;
 }
 #projects {
 	display: none;
 	border: 20px;
-	background-color: black;
+	background-color:  #ef719e;
 	margin: 15px;
 	padding: 20px 5px;
 }
 /* */
 
-#port{
-	font-family: 'Georgia', san-serif;
-	font-style: italic;
-	font-size: 50px;
-}
+
 #about p{
-	color: pink;
-	font-family: 'Impact', serif;
+	color: white;
+	font-family: 'Tahoma', sans-serif;
 }
 
 #experience ul{
-	color:yellow;
+	color: black;
 	text-align: center;
-}
-
-/* Code to make the link aligned to the right.*/
-#nav {
-	display: block;
-	float: right;
-	
 
 }
+#experienceP{
+	font-size: 20px;
+}
+
 
 /* Code to make the links aligned horizontally*/
 nav li {
@@ -92,17 +104,19 @@ article{
 
 footer {
 	border:20px;
-	background-color: #F75EC5;
+	background-color: #ef719e;
 	margin: 15px;
 	padding: 20px 15px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 /* editing images for about me section */
 #aboutmepic{
-	width: 400px;
-	height: 500px;
+	width: 25%;
 	display: block;
-	
 	margin-right: auto; 
+	margin-right
 
 }
 

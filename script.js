@@ -31,10 +31,10 @@ $(document).ready(function() {
 	//This line of code will change all h1 tags to red when hovered over, and they will return to white once the mouse is no longer hovering over the text
 	$('h1').hover(on,off);
 		function on (){
-		$(this).css("color","red");
+		$(this).css("color","white");
 		}
 		function off(){
-		$(this).css("color","white");
+		$(this).css("color",);// need to figure out how to return color to the orginal color
 		}
 	//this code will make the divs, about me, contact, etc, toggle down and back up 
 	$('#aboutMeButton').click(function(){

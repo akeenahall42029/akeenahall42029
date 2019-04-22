@@ -10,52 +10,48 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
 </head>
-<body bgcolor=" #e89bef">
+<body>
 	<header>
-		<h2> Akeena Hall's </h2> 
-		<h1 id="port"> Profile </h1>
+		<h1> Akeena's Portfolio</h1>
 	 </header>
 	<nav>
-		<ul id="nav">
-			<li>
-				<a href="#about"> About Me </a>
-			</li>
-			<li>
-				<a href="#experience"> Experience </a>
-			</li>
-			<li>
-				<a href="#projects"> Projects </a>
-			</li>
-			<li>
-				<a href="#contact"> Contact </a>
-			</li>
-		</ul>
+		<li> 
+			<a id= "aboutMeButton" href="#about"> About Me </a>
+		</li>
+		<li>
+			<a id="experienceB" href="#experience"> Experience</a>
+			
+		</li>
+		<li>
+		<a id="projectb" href="#projects"> Projects </a>
+	</li>
 		
 	</nav>
-	<!-- Button for the about me div-->
-	<button id="aboutMeButton" type="button">Click this button to show the <b>About Me Section </b> </button>
+
 	<div id="about">
 		
-		<h1> About Me </h1>
+		<h2> About Me </h2>
 		<img id="aboutmepic" src="images/aboutmeIMG.JPG">
 		<p> My name is Akeena Hall, I'm 14 years old, and I'm in the 9th grade; I attend Urban Assembly Maker Academy. I participate in a lot of extracurricular activities such as Junior Varsity basketball, Girl Scouts, Girls Inc, and <a href="https://codenext.withgoogle.com/#intro">Code Next.</a> I like to spend my free time volunteering, hanging out with friends, and watching Tv at home!</p>
 	</div>
 	<!-- Button for the experience div-->
-	<button id="experienceB" type="button"> Click this button to show the <b> Experience Seciton </b> </button>
+	
 	<div id="experience">
-		<h1> Experience</h1>
+		<h2> Experience</h2>
 		<ul>
+			<p id="experienceP">
 			 Coding in HTML and Javascript <br>
 			 Scripting in CSS <br>
 			 Teddy Bear customing with Arduino <br>
 			 Coding with Scratch in the 6th grade in Girls Who Code<br>
+			</p>
 		</ul>
 			
 	</div>
 	<!-- button for the project div-->
-	<button id="projectb" type="button"> Click this button to show the <b> Projects Section</b></button>
+	
 	<div id="projects">
-		<h1> Projects </h1>
+		<h2> Projects </h2>
 		<!-- Code from w3schools -->
 		<div class="slideshow-container">
 			<!-- Set up for one image in slideshow -->
@@ -99,8 +95,11 @@
 
 	</div> 
 	<footer id="contact">
-		<h1>Contact</h1>
+		<h2>Contact</h2>
+		<a href="https://www.instagram.com/kekee.destiny/"> 
 		<img id="insta" src="images/instaLogo.png">
+	</a>
+	<p id="contactP"> akeena@justrighttechnology.com</p>
 	</footer>
 
 <script src="script.js"></script>
