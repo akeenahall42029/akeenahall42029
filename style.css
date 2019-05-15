@@ -38,7 +38,7 @@ h2{
 }
 /* size for instagram logo */
 
-#insta{
+.footer-image{
 	width: 15%;
 }
 /* The following code will hide the main divs, this is so in script, when the button is clicked, the sections will show */
