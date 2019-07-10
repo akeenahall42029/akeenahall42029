@@ -113,12 +113,12 @@ footer {
 }
 /* editing images for about me section */
 #aboutmepic{
-	width: 25%;
+	width: 15%;
 	display: block;
-	margin-right: auto; 
-	margin-right
+	float: left;
 
 }
+
 
 /*testing w3schools code for slideshow */
 
@@ -158,18 +158,22 @@ footer {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,55,25,0.8);
+  background-color: rgba(46, 82, 92, 0.96);
 }
 
 /* Caption text */
-.text {
-  color: white;
+.text{
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  
+}
+.linkColor{
+	color: black;
 }
 
 /* Number text (1/4 etc) */

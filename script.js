@@ -34,7 +34,7 @@ $(document).ready(function() {
 		$(this).css("color","white");
 		}
 		function off(){
-		$(this).css("color",);// need to figure out how to return color to the orginal color
+		$(this).css("color","red");// need to figure out how to return color to the orginal color
 		}
 	//this code will make the divs, about me, contact, etc, toggle down and back up 
 	$('#aboutMeButton').click(function(){
