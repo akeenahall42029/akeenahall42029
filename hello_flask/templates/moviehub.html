@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>     
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body>
+        <h1>Movies </h1>
+        {% for result in results%}
+        <div class="movie_div">
+            <h3> {{result%['title']}}</h3>
+            <p> Year Released: {{result%['year']}}</p>
+        </div>
+        {%endfor%}
+          
+    </body>
+</html>
