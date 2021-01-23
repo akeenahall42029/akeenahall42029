@@ -50,6 +50,8 @@ def movie_title():
     with open(movies_path,'r') as raw_json:
         json_info = json.load(raw_json)
     results = []
+	#This line of code request.arg, looks at the search browser
+	#anything after the ?, the title is
     if 'title' in request.args:
         #stores the results of the title the user put into the url
         title = request.args['title']
@@ -61,9 +63,7 @@ def movie_title():
                 results.append(movie)
     if len(results) < 1:
         return "No requests found"
-    return render_template("moviehub.html", results=result)
-
-
+    return render_template("moviehub.html", results=results)
 
 @app.route('/index')    
 def index():

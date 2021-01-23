@@ -4,3 +4,8 @@ body{
 h1{
     background-color:azure;
 }
+.movie_div{
+    background-color:gold ;
+    text-align: center;
+    font-size: medium;
+}
