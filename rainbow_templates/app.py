@@ -8,7 +8,9 @@ def index():
     return "Welcome to Akeena's Rainbow Project"
 @app.route('/rainbow')
 def rainbow():
-    return "Currently in the works"
+    colorlinks = ['red','orange','yellow']
+    
+    return render_template("rainbow_temp.html",colorlinks=colorlinks)
     
 @app.route('/red', methods=['GET'])
 def redPage():

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Akeena's Rainbow</title>
+        <link type ="text/css" rel="stylesheet" href="{{ url_for('static',filename='style.css') }}"/>
+    </head>
+
+    <body style="background-color: hotpink;">
+        <h1>Akeena's Rainbow</h1>
+        <ul>
+            {% for colorlink in colorlinks %}
+                {% set link ='http://127.0.0.1:5000/' + colorlink %}
+                
+                <li><a href={{link}}>Click here for : {{colorlink}}</a></li>
+            {% endfor %}
+
+
+        </ul>
+    </body>
+</html>
