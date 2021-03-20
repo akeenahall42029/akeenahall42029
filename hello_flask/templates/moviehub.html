@@ -8,7 +8,7 @@
         <!-- The for loop iterates through the list, going through the objects one at a time-->
         <!-- Pulls info from the api, makes the information looks pretty, and continues with all then 
         objects in the list that apply -->
-        {% for result in results % }
+        {% for result in results %}
             <div class="movie_div">
                 <h3> {{ result['title'] }} </h3>
                 <p> Year Released: {{ result['year'] }}</p>

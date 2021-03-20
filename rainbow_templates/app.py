@@ -8,7 +8,7 @@ def index():
     return "Welcome to Akeena's Rainbow Project"
 @app.route('/rainbow')
 def rainbow():
-    colorlinks = ['red','orange','yellow']
+    colorlinks = ['red','orange','yellow','green','blue','indigo','violet']
     
     return render_template("rainbow_temp.html",colorlinks=colorlinks)
     
