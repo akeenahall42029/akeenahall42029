@@ -1,0 +1,26 @@
+body{
+    background-color: #d4ffff;
+}
+h1{
+    color: #7096ff;
+}
+#main_content{
+    /* center all content in ths div */
+    background-color:purple;
+}
+.sticky_image{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    
+}
+#header{
+    text-align: center;
+    height: 250px;
+    background-image: url("https://media.threatpost.com/wp-content/uploads/sites/103/2019/12/18105739/IoT-2019-disastors-.png");
+   
+}

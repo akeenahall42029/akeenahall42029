@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Akeena's Sensehat Project</title>
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    <h1> Send a message</h1>
-    <h3> It will be displayed in on the Sensehat!</h3>
-    <form action="/sucess" method="post">
-        <input type='text' name="message"/>
-        <input type="submit"/>
-        
+    <div id='main_content' >
+        <div class="sticky_image">
+            <div id="header"> 
+                <h1> IoT Demo</h1>
+            </div>
+        </div>  
+        <p> Welcome Makers! Let me introduce you to the world of Internet of Things</p>
+        <p> Put in simply, the Internet of Things is a term that describes the network between hardware and software.
+            This demo will demonstrate IoT!</p>
+        <h3>Instructions</h3>
+        <p> Type your name and a message into the form and press enter!</p>
+        <div id='form_div'> 
+            <form action="/sucess" method="post">
+                <label for="name"> Enter name:</label> <br>
+                <input type='text' name='name'/> <br>
+                <label for='message'> Enter a message: </label> <br>
+                <input type='text' name="message"/>
+                <input type="submit"/>
+            
+            </form>
+        </div>
+    </div>
     
-    </form>
+    
 </body>
 </html>
