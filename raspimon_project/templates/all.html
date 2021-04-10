@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akeena's Sensehat Project</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Oh No! There's been a data breach!</h1>
+    <h3>View all the messages I've recieved on my Pi!</h3>
+    {% for message in messages %}
+        <p>{{message["message"]}} from {{message["name"]}}</p>
+        <form action="/display" method="post">
+            <input type="hidden" name="message" value="{{message['message']}}"/>
+        </form>
+    {% endfor %}
+</body>

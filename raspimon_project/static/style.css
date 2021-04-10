@@ -6,7 +6,7 @@ h1{
 }
 #main_content{
     /* center all content in ths div */
-    background-color:purple;
+    background-color:rgb(255, 169, 255);
 }
 .sticky_image{
     position: relative;
