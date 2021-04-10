@@ -26,7 +26,7 @@ def sucess():
     #close database connection 
     conn.close()
     return render_template("sucess.html",message = message)
-@app.route('/all')
+@app.route('/all', methods=['GET','POST'])
 def all():
     #connect to database 
     conn = sqlite3.connect("./static/data/senseDisplay.db")
