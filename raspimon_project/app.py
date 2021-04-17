@@ -25,7 +25,7 @@ def sucess():
     conn.commit()
     #close database connection 
     conn.close()
-    return render_template("sucess.html",message = message)
+    return render_template("sucess.html",message = message, user_name = user_name)
 @app.route('/all', methods=['GET','POST'])
 def all():
     #connect to database 
